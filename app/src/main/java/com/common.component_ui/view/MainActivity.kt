@@ -1,14 +1,11 @@
-package com.domui.uicomponent.view
+package com.common.component_ui.view
 
 import android.content.Intent
 import android.support.v7.widget.GridLayoutManager
-import android.text.TextUtils
 import com.chad.library.adapter.base.BaseQuickAdapter
+import com.common.component_ui.adapter.PanelAdapter
 import com.domui.uicomponent.R
-import com.domui.uicomponent.adapter.PanelAdapter
-import com.domui.uicomponent.model.PanelItemDescription
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 class MainActivity : BaseActivity() {
 
@@ -19,27 +16,21 @@ class MainActivity : BaseActivity() {
 
     override fun initData() {
         showTitle(resources.getString(R.string.app_name))
-        val functionArray = resources.getStringArray(R.array.type)
-        val list = ArrayList<PanelItemDescription>()
-        for (i in functionArray.indices) {
-            val itemDescription = PanelItemDescription()
-            itemDescription.setmKitName(functionArray[i])
-            list.add(itemDescription)
-        }
+        val functionArray = resources.getStringArray(R.array.type).toList()
 
-        val mAdapter = PanelAdapter(list)
-        recycle.layoutManager = GridLayoutManager(this, 3)
+        val mAdapter = PanelAdapter(functionArray)
+        recycle.layoutManager = GridLayoutManager(this, 2)
         recycle.adapter = mAdapter
         mAdapter.onItemClickListener = BaseQuickAdapter.OnItemClickListener { adapter, _, position ->
-            val itemDescription = adapter.getItem(position) as PanelItemDescription?
-            if (itemDescription != null && !TextUtils.isEmpty(itemDescription.getmKitName()))
-                launchActivity(itemDescription.getmKitName())
+            val itemDescription = adapter.getItem(position) as String
+            if (itemDescription.isNotEmpty())
+                launchActivity(itemDescription)
         }
     }
 
     private fun launchActivity(prefixName: String) {
 
-        val fullName = "com.domui.uicomponent.view." + prefixName + "Activity"
+        val fullName = "com.common.component_ui.view." + prefixName + "Activity"
         var mclass: Class<*>? = null
         try {
             mclass = Class.forName(fullName)

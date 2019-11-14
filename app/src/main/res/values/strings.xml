@@ -11,8 +11,9 @@
     <string name="centerToast">我是一个居中Toast</string>
 
     <!--Button-->
-    <string name="button">Button</string>
-    <string name="animation">Anim</string>
+    <string name="button">圆角定制</string>
+    <string name="animation">切换动画</string>
+    <string name="aspectRationImage">自适应图片</string>
 
 
     <!--Item-->
@@ -20,5 +21,6 @@
         <item>Toast</item>
         <item>Button</item>
         <item>Anim</item>
+        <item>AspectRationImage</item>
     </string-array>
 </resources>

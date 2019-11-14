@@ -1,4 +1,4 @@
-package com.domui.uicomponent.view
+package com.common.component_ui.view
 
 import com.domui.uicomponent.R
 

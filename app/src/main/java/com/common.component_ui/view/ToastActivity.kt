@@ -1,8 +1,8 @@
-package com.domui.uicomponent.view
+package com.common.component_ui.view
 
 import android.view.Gravity
+import com.common.component_ui.widget.Toast.ToastUtils
 import com.domui.uicomponent.R
-import com.domuiteam.domui.widget.Toast.ToastUtils
 import kotlinx.android.synthetic.main.activity_toast.*
 
 class ToastActivity : BaseActivity() {
