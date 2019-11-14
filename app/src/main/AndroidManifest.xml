@@ -26,7 +26,8 @@
         <activity
             android:name="com.common.component_ui.view.AnimActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTop"
+            android:theme="@style/AnimActivity" />
         <activity
             android:name="com.common.component_ui.view.AspectRationImageActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
