@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DOMUI</string>
+    <!--Toast-->
+    <string name="toast">Toast</string>
+    <string name="normal_toast">普通Toast</string>
+    <string name="custom_toast_style">自定义样式Toast</string>
+    <string name="global_style">全局统一样式Toast</string>
+    <string name="normalToast">我是一个普通Toast</string>
+    <string name="customToastLayout">我是一个自定义布局Toast</string>
+    <string name="bottomToast">我是一个底部Toast</string>
+    <string name="centerToast">我是一个居中Toast</string>
+
+    <!--Button-->
+    <string name="button">Button</string>
+    <string name="animation">Anim</string>
+
+
+    <!--Item-->
+    <string-array name="type">
+        <item>Toast</item>
+        <item>Button</item>
+        <item>Anim</item>
+    </string-array>
+</resources>

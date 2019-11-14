@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.domuiteam.domui.widget.Button.RoundButton
+        android:id="@+id/btnFixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:padding="@dimen/dimen_10"
+        android:text="指定圆角大小"
+        app:domui_borderColor="@color/cfdd835"
+        app:domui_borderWidth="2dp"
+        app:domui_radius="@dimen/dimen_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.domuiteam.domui.widget.Button.RoundButton
+        android:id="@+id/btnGradient"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="渐变色"
+        app:domui_borderColor="@color/cfdd835"
+        app:domui_borderWidth="2dp"
+        app:domui_gradientEnd="@color/colorAccent"
+        app:domui_gradientStart="@color/cfdd835"
+        app:domui_radius="@dimen/dimen_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFixed" />
+
+    <com.domuiteam.domui.widget.Button.RoundButton
+        android:id="@+id/btnTopLeft"
+        android:layout_width="@dimen/dimen_60"
+        android:layout_height="@dimen/dimen_60"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="指"
+        app:domui_borderColor="@color/cfdd835"
+        app:domui_borderWidth="2dp"
+        app:domui_radiusTopLeft="@dimen/dimen_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGradient" />
+
+    <com.domuiteam.domui.widget.Button.RoundButton
+        android:layout_width="@dimen/dimen_60"
+        android:layout_height="@dimen/dimen_60"
+        android:layout_marginStart="@dimen/dp_10"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="定"
+        app:domui_borderColor="@color/cfdd835"
+        app:domui_borderWidth="2dp"
+        app:domui_radiusTopRight="@dimen/dimen_5"
+        app:layout_constraintStart_toEndOf="@+id/btnTopLeft"
+        app:layout_constraintTop_toTopOf="@+id/btnTopLeft" />
+
+    <com.domuiteam.domui.widget.Button.RoundButton
+        android:id="@+id/btnBottomLeft"
+        android:layout_width="@dimen/dimen_60"
+        android:layout_height="@dimen/dimen_60"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="方"
+        app:domui_borderColor="@color/cfdd835"
+        app:domui_borderWidth="2dp"
+        app:domui_radiusBottomLeft="@dimen/dimen_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTopLeft" />
+
+    <com.domuiteam.domui.widget.Button.RoundButton
+        android:layout_width="@dimen/dimen_60"
+        android:layout_height="@dimen/dimen_60"
+        android:layout_marginStart="@dimen/dp_10"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:text="向"
+        app:domui_borderColor="@color/cfdd835"
+        app:domui_borderWidth="2dp"
+        app:domui_radiusBottomRight="@dimen/dimen_5"
+        app:layout_constraintStart_toEndOf="@+id/btnBottomLeft"
+        app:layout_constraintTop_toTopOf="@+id/btnBottomLeft" />
+
+
+</android.support.constraint.ConstraintLayout>
