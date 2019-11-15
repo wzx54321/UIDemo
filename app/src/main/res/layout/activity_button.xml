@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
 
-    <com.common.component_ui.widget.Button.RoundButton
+    <com.common.component_ui.widget.button.RoundButton
         android:id="@+id/btnFixed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.common.component_ui.widget.Button.RoundButton
+    <com.common.component_ui.widget.button.RoundButton
         android:id="@+id/btnGradient"
         android:layout_width="@dimen/dimen_100"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnFixed" />
 
-    <com.common.component_ui.widget.Button.RoundButton
+    <com.common.component_ui.widget.button.RoundButton
         android:id="@+id/btnTopLeft"
         android:layout_width="@dimen/dimen_60"
         android:layout_height="@dimen/dimen_60"
@@ -51,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnGradient" />
 
-    <com.common.component_ui.widget.Button.RoundButton
+    <com.common.component_ui.widget.button.RoundButton
         android:layout_width="@dimen/dimen_60"
         android:layout_height="@dimen/dimen_60"
         android:layout_marginStart="@dimen/dp_10"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toEndOf="@+id/btnTopLeft"
         app:layout_constraintTop_toTopOf="@+id/btnTopLeft" />
 
-    <com.common.component_ui.widget.Button.RoundButton
+    <com.common.component_ui.widget.button.RoundButton
         android:id="@+id/btnBottomLeft"
         android:layout_width="@dimen/dimen_60"
         android:layout_height="@dimen/dimen_60"
@@ -79,7 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTopLeft" />
 
-    <com.common.component_ui.widget.Button.RoundButton
+    <com.common.component_ui.widget.button.RoundButton
         android:layout_width="@dimen/dimen_60"
         android:layout_height="@dimen/dimen_60"
         android:layout_marginStart="@dimen/dp_10"

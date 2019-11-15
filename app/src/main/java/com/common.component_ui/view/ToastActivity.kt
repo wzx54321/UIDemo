@@ -1,7 +1,7 @@
 package com.common.component_ui.view
 
 import android.view.Gravity
-import com.common.component_ui.widget.Toast.ToastUtils
+import com.common.component_ui.widget.toast.ToastUtils
 import com.domui.uicomponent.R
 import kotlinx.android.synthetic.main.activity_toast.*
 

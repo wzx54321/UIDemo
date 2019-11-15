@@ -14,6 +14,7 @@
     <string name="button">圆角定制</string>
     <string name="animation">切换动画</string>
     <string name="aspectRationImage">自适应图片</string>
+    <string name="dialog">Dialog定制</string>
 
 
     <!--Item-->
@@ -22,5 +23,7 @@
         <item>Button</item>
         <item>Anim</item>
         <item>AspectRationImage</item>
+        <item>Dialog</item>
+        <item>BottomSheet</item>
     </string-array>
 </resources>

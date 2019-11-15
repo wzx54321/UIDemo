@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.common.component_ui.widget.ImageView.AspectRatioImageView
+    <com.common.component_ui.widget.imageview.AspectRatioImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
