@@ -15,6 +15,7 @@
     <string name="animation">切换动画</string>
     <string name="aspectRationImage">自适应图片</string>
     <string name="dialog">Dialog定制</string>
+    <string name="bottom_sheet">底部弹框</string>
 
 
     <!--Item-->

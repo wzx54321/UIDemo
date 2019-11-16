@@ -35,6 +35,10 @@
             android:name="com.common.component_ui.view.DialogActivity"
             android:configChanges="keyboardHidden|screenSize|orientation"
             android:launchMode="singleTop" />
+        <activity
+            android:name="com.common.component_ui.view.BottomSheetActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>
