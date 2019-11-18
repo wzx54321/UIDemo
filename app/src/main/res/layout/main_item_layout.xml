@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal|top"
         android:lines="2"
-        android:textColor="@color/default_color"
+        android:textColor="@color/c343a40"
         android:textSize="@dimen/sp_16"
         android:textStyle="bold"
         tools:text="Toast" />

@@ -1,7 +1,7 @@
 package com.common.component_ui.view
 
 import android.content.Intent
-import android.support.v7.widget.GridLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.common.component_ui.adapter.PanelAdapter
 import com.domui.uicomponent.R

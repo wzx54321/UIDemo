@@ -3,13 +3,14 @@ package com.common.component_ui.view
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
 import android.os.Bundle
-import android.support.annotation.LayoutRes
-import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.TextView
+import androidx.annotation.LayoutRes
+import androidx.appcompat.app.AppCompatActivity
 import com.domui.uicomponent.R
 import kotlinx.android.synthetic.main.activity_layout_base.*
 import kotlinx.android.synthetic.main.base_tool_bar.*
+
 
 abstract class BaseActivity : AppCompatActivity() {
     @SuppressLint("ResourceType")
