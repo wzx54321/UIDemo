@@ -5,7 +5,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.Toast
 import com.common.component_ui.widget.bottomsheet.XinPopWindow
-import com.domui.uicomponent.R
+import com.common.componentui.R
 import kotlinx.android.synthetic.main.activity_bottom_sheet.*
 import java.util.*
 

@@ -1,6 +1,6 @@
 package com.common.component_ui.view
 
-import com.domui.uicomponent.R
+import com.common.componentui.R
 
 class AspectRationImageActivity : BaseActivity() {
 

@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.recyclerview.widget.GridLayoutManager
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.common.component_ui.adapter.PanelAdapter
-import com.domui.uicomponent.R
+import com.common.componentui.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {

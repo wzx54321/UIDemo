@@ -1,6 +1,6 @@
 package com.common.component_ui.view
 
-import com.domui.uicomponent.R
+import com.common.componentui.R
 import kotlinx.android.synthetic.main.activity_transition_anim.*
 
 class AnimActivity : BaseActivity() {

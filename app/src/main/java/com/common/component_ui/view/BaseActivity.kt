@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
-import com.domui.uicomponent.R
+import com.common.componentui.R
 import kotlinx.android.synthetic.main.activity_layout_base.*
 import kotlinx.android.synthetic.main.base_tool_bar.*
 

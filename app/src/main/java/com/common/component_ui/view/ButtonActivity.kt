@@ -1,6 +1,7 @@
 package com.common.component_ui.view
 
-import com.domui.uicomponent.R
+import com.common.componentui.R
+
 
 class ButtonActivity : BaseActivity() {
     override fun getLayoutId(): Int {
